@@ -66,7 +66,7 @@ public class Runner
         //playGame(new bromanda.AIPlayerAlphaBeta(10,false), new BChenMinimax());
         //playGame(new BChenMinimax(), new bromanda.AIPlayerAlphaBeta(10,false));
         //playGame(new BChenMinimax(), new watsona.LookaheadPlayer());
-        playGame(new BChenStatSamp(), new InteractivePlayer());
+        playGame(new BChenMinimax(), new InteractivePlayer());
         //playGame(new BChenMinimax(), new InteractivePlayer());
         
         // This example plays bromanda.AIPlayerAlphaBeta and lets you see the

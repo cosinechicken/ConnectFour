@@ -94,7 +94,7 @@ public class BChenStatSamp implements connectFour.Player
 				movesMade--;
 			}
 		}
-		System.out.println(bestVal);
+		System.out.println("VAL: " + bestVal);
 		return bestMove;
 	}
 
